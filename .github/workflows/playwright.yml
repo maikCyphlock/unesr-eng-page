@@ -32,9 +32,9 @@ jobs:
       - uses: actions/upload-artifact@v3
         if: always()
           with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 15
+            name: playwright-report
+            path: playwright-report/
+            retention-days: 15
   delete:
     if: ${{ github.event.action == 'closed' }}
     runs-on: ubuntu-latest
