@@ -5,6 +5,10 @@ on:
   pull_request:
     branches: [ main, master ]
 jobs:
+  server:
+    steps: 
+    - name: Run vite server
+      run: npm run dev
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
