@@ -1,5 +1,10 @@
 name: Playwright Tests
+<<<<<<< HEAD
   env:
+=======
+
+env:
+>>>>>>> 4dcfd4f79229a0a12166777cea3b9c4746997fe2
       VERCEL_ACCESS_TOKEN: ${{ secrets.VERCEL_API_KEY }}
       VERCEL_PROJECT_ID: ${{secrets.VERCEL_PROJECT_ID}}
 on:
@@ -37,4 +42,10 @@ jobs:
       - uses: snaplet/vercel-action@v2
         with:
           delete: true
+<<<<<<< HEAD
  
+=======
+  test:
+    steps:
+
+>>>>>>> 4dcfd4f79229a0a12166777cea3b9c4746997fe2
