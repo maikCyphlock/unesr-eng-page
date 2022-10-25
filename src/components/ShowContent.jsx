@@ -29,9 +29,9 @@ export default function ShowContent() {
   }, []);
 
   return (
-    <div className="h-screen flex justify-center items-center ">
+    <div className="h-min-screen flex justify-center items-center ">
       {
-        error ? <Error/> : <div dangerouslySetInnerHTML={{ __html: Content?.html }}></div>
+        error ? <Error/> : <article className="prose lg:prose-xl mt-20" dangerouslySetInnerHTML={{ __html: Content?.html }}></article>
       }
       
     </div>
