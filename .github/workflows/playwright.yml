@@ -10,7 +10,6 @@ on:
      branches: [main, master]
 jobs:
   deploy:
-    if: ${{ github.event.action == 'opened' || github.event.action == 'synchronize' }}
     runs-on: ubuntu-latest
     steps:
       - uses: snaplet/vercel-action@v2
