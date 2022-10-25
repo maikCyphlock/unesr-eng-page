@@ -1,9 +1,14 @@
-<p align="center">
-  <h1>este es uno de mis recientes proyecto para la universidad</h1>
-</p>
+<div align="center">
+  <img  width=256 src='https://user-images.githubusercontent.com/66704744/197883079-c38a4209-7847-44ff-bd55-88163ba7d5cd.png'>
+
+  <h1>👋 Hola soy maikol aguilar </h1>
+
+</div>
 
 
 
+
+#proyecto para la universidad
 debido a la problematica causada por la burocracia y la ineptitup del gobierno venezolano, la universidad simon rodriguez a tenido varios problemas para manejar la informacion y los servidores con sus alumnos, desembocando en fallos en periodos de inscripciones y la falta de accion de los rectores de la universidad me han impulsado a desarrollar esta pequeña solución para el area de docencia en inglés
 
 ## falta de información centralizada
