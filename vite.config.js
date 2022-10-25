@@ -7,5 +7,6 @@ export default defineConfig({
   server:{
     port:3000
   },
-  plugins: [reactRefresh(), mdPlugin({mode:Mode.HTML})]
+  plugins: [reactRefresh(), mdPlugin({mode:Mode.HTML})],
+ 
 })

@@ -1,11 +1,11 @@
 import React, { Suspense, lazy } from "react";
-
+import Loading from "../../components/Loading";
 
 const ShowContent = lazy(()=> import("../../components/ShowContent"))   
-export default function Child() {
-  
+export default function Index() {
     return (
-      <Suspense fallback={<div className="flex justify-content items-center h-screen">cargando</div>}>
+      <Suspense fallback={<Loading/>}>
+        
        <ShowContent/>
       </Suspense>
     );

@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Child from './pages/course/Child';
+import Course from './pages/course';
 function App() {
   return (
     <Router>
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />} />
-        <Route path="/course/:id" element={<Child />} />
+        <Route path="/course/:id" element={<Course />} />
         
       </Routes>
 
