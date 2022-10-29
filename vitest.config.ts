@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  test:{
+  test: {
     dir: 'src/tests',
-    environment: 'jsdom',
+    environment: 'jsdom'
   }
 })
