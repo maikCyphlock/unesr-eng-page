@@ -8,7 +8,7 @@
 
 
 
-#proyecto para la universidad
+# proyecto para la universidad
 debido a la problematica causada por la burocracia y la ineptitup del gobierno venezolano, la universidad simon rodriguez a tenido varios problemas para manejar la informacion y los servidores con sus alumnos, desembocando en fallos en periodos de inscripciones y la falta de accion de los rectores de la universidad me han impulsado a desarrollar esta pequeña solución para el area de docencia en inglés
 
 ## falta de información centralizada
@@ -27,4 +27,14 @@ el nivel de latencia entre la universidad central y nuestro nucleo es tanta que 
 
 ## Objetivo principal
 1. Crear una biblioteca donde obtener los recursos por categorias, cursos y nivel de estudio
+
+## tecnologias usadas
+
+- React
+- Vite
+- Tailwind
+- Typescript
+- Postcss
+- playwright
+- vitest
 
